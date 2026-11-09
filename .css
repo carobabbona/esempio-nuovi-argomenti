@@ -1,0 +1,28 @@
+/* 1. Header con ID "testata", sfondo Blu Notte e testo Bianco Oro */
+#testata {
+    background-color: #1a252f;
+    color: #f39c12;
+    padding: 20px;
+}
+
+/* 2. Classe "attivo" per il link corrente in grassetto */
+.attivo {
+    font-weight: bold;
+    color: #ffffff; /* Colore che stacca sullo sfondo dell'header */
+}
+
+/* 3. Classe "nota" con bordo colorato a sinistra */
+.nota {
+    border-left: 5px solid #e74c3c; /* Bordo rosso a sinistra */
+    padding-left: 15px;            /* Spazio tra il bordo e il testo */
+    margin: 15px 0;
+    font-style: italic;
+}
+
+/* 4. Footer più piccolo e centrato */
+footer {
+    font-size: 0.85rem;
+    text-align: center;
+    padding: 20px;
+    color: #7f8c8d;
+}
